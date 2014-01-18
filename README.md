@@ -1,4 +1,1 @@
-simple_logger
-=============
-
-Simple Arduino based NMEA 0183 message logger.
+Simple NMEA message logger.  If GPS sentences are present, will log to hourly files.  No timestamps are logged, its assumed GPS messages will be used for timing.
